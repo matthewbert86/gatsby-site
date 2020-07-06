@@ -190,12 +190,12 @@ p {
 /* social links */
 .social-links {
   margin-top: 2rem;
-  width: 15rem;
+  width: 12rem;
   display: flex;
   justify-content: space-between;
 }
 .social-link {
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: var(--clr-grey-1);
   transition: var(--transition);
 }
@@ -429,6 +429,8 @@ Hero
 }
 .hero-img {
   display: none;
+  border-radius: 50%;
+  width: 85%;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
@@ -464,7 +466,7 @@ Hero
   .hero-img {
     display: block;
     grid-row: 1/1;
-    grid-column: 6/-1;
+    grid-column: 7/-1;
   }
 }
 @media screen and (min-width: 1170px) {
