@@ -1046,6 +1046,12 @@ Blog Template
   margin: 3rem 0;
 }
 
+.blog-content p img {
+  width: 25em;
+  height: auto;
+  margin: auto;
+  display: block;
+}
 
 
 /* ADDITIONS */
