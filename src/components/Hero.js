@@ -35,7 +35,7 @@ const Hero = () => {
             <h1>Matthew Bert</h1>
             <h4>freelance Web & App Developer</h4>
             <Link to="/contact" className="btn">
-              contact me
+              Contact me
             </Link>
             <SocialLinks />
           </div>
